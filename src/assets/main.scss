@@ -1,0 +1,27 @@
+@use "sass:map";
+@use "@oslokommune/oslo-designsystem/dist/scss/abstracts/variables" as * with (
+  $font-path: "@oslokommune/oslo-designsystem/dist"
+);
+
+@use "@oslokommune/oslo-designsystem/dist/scss/abstracts/mixins" as *;
+
+@use "@oslokommune/oslo-designsystem/dist/scss/ods" as *;
+
+.ods-main {
+  margin-top: 1.125rem;
+  margin-bottom: 4rem;
+
+  @include bp("tablet-up") {
+    margin-top: 3.125rem;
+    margin-bottom: 6.5rem;
+  }
+}
+
+p {
+  margin-bottom: 1rem;
+  max-width: 850px;
+}
+
+.ods-table {
+  max-width: 850px;
+}

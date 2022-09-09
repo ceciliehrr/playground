@@ -1,0 +1,18 @@
+{
+  "svgsprite": {
+    "files": [
+      "./node_modules/@oslokommune/oslo-designsystem/dist/icons/alert-error.svg",
+      "./node_modules/@oslokommune/oslo-designsystem/dist/icons/alert-information.svg",
+      "./node_modules/@oslokommune/oslo-designsystem/dist/icons/alert-success.svg",
+      "./node_modules/@oslokommune/oslo-designsystem/dist/icons/alert-warning.svg",
+      "./node_modules/@oslokommune/oslo-designsystem/dist/icons/chevron-left.svg",
+      "./node_modules/@oslokommune/oslo-designsystem/dist/icons/chevron-right.svg",
+      "./node_modules/@oslokommune/oslo-designsystem/dist/logos/oslo-kommune.svg",
+      "./node_modules/@oslokommune/oslo-designsystem/dist/icons/user.svg"
+    ],
+    "output": {
+      "fileType": "html",
+      "filePath": "./src/components/Icons.vue"
+    }
+  }
+}
