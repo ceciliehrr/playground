@@ -1,13 +1,12 @@
 @use "sass:map";
-@use "@oslokommune/oslo-designsystem/dist/scss/abstracts/variables" as * with (
-  $font-path: "@oslokommune/oslo-designsystem/dist"
-);
+@use "@oslokommune/punkt-css/dist/scss/abstracts/variables" with
+  ($font-path: "@oslokommune/punkt-assets/dist");
 
-@use "@oslokommune/oslo-designsystem/dist/scss/abstracts/mixins" as *;
+@use "@oslokommune/punkt-css/dist/scss/abstracts/mixins" as *;
 
-@use "@oslokommune/oslo-designsystem/dist/scss/ods" as *;
+@use "@oslokommune/punkt-css/dist/scss/pkt" as *;
 
-.ods-main {
+.pkt-main {
   margin-top: 1.125rem;
   margin-bottom: 4rem;
 
@@ -22,6 +21,6 @@ p {
   max-width: 850px;
 }
 
-.ods-table {
+.pkt-table {
   max-width: 850px;
 }

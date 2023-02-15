@@ -1,4 +1,5 @@
-# vite-vue2-starter
+# Playground vue 2
+## vite-vue2-starter
 
 A simple start for using vue2 with vite, using [underfin's vite-plugin-vue2](https://github.com/underfin/vite-plugin-vue2).
 

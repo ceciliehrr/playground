@@ -1,10 +1,18 @@
 import Vue from "vue";
 import App from "./App.vue";
 import "./assets/main.scss";
-import OdsVue from "@oslokommune/oslo-designsystem-vue";
+//import PktVue from "@oslokommune/punkt-vue2";
+import { PktHeader, PktFooter, PktIcon } from "@oslokommune/punkt-vue2";
 import { faker } from "@faker-js/faker";
 
-Vue.use(OdsVue);
+// Importerer enkeltkomponenter
+Vue.component("pkt-header", PktHeader);
+Vue.component("pkt-footer", PktFooter);
+Vue.component("pkt-icon", PktIcon); // for ikoner
+
+// Importerer alle komponenter
+//Vue.use(PktVue);
+
 Vue.use(faker);
 
 new Vue({

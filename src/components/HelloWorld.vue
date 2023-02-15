@@ -1,16 +1,19 @@
 <template>
-  <main>
-    <h1>{{ randomH1 }}</h1>
-    <p>{{ randomIngress }}</p>
+  <main class="pkt-container">
+    <h1 class="osg-h1">{{ randomH1 }}</h1>
+    <p class="osg-txt1">{{ randomIngress }}</p>
     <p>
       {{ randomText }}
     </p>
+    <button class="pkt-btn pkt-btn--label-only">
+      <span class="pkt-btn__text">Knappen</span>
+    </button>
 
-    <table>
+    <table class="pkt-table mt-size-20 mb-size-30">
       <thead>
         <tr>
-          <th>{{ column }}</th>
-          <th>{{ column }}</th>
+          <th class="pkt-table__th">{{ column }}</th>
+          <th class="pkt-table__th">{{ column }}</th>
         </tr>
       </thead>
       <tbody>
@@ -25,8 +28,8 @@
       </tbody>
     </table>
 
-    <h2>{{ randomH2 }}</h2>
-    <p>{{ randomIngress2 }}</p>
+    <h2 class="osg-h2">{{ randomH2 }}</h2>
+    <p class="osg-txt2">{{ randomIngress2 }}</p>
     <p>
       {{ randomText }}
     </p>

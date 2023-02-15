@@ -7,14 +7,15 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@oslokommune/oslo-designsystem": "^0.17.1",
-    "@oslokommune/oslo-designsystem-vue": "^0.12.0",
-    "vue": "^2.6.12"
+    "@oslokommune/punkt-assets": "^0.21.0",
+    "@oslokommune/punkt-css": "^0.21.3",
+    "@oslokommune/punkt-vue2": "^0.20.28",
+    "@vitejs/plugin-vue2": "^2.2.0",
+    "vue": "^2.7.14"
   },
   "devDependencies": {
     "@faker-js/faker": "^7.5.0",
     "sass": "^1.54.9",
-    "vite": "^2.0.5",
-    "vite-plugin-vue2": "^2.0.1"
+    "vite": "^4.1.1"
   }
 }

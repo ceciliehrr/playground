@@ -1,9 +1,11 @@
 <template>
   <div id="app" class="app">
-    <div class="ods-main">
+    <pkt-header />
+    <div class="pkt-main">
       <HelloWorld />
       <Icons />
     </div>
+    <pkt-footer class="page-footer" :links="links"></pkt-footer>
   </div>
 </template>
 
@@ -16,7 +18,12 @@ export default {
     Icons,
   },
   data() {
-    return {};
+    return {
+      links: [
+        { text: "Kontakt", href: "#" },
+        { text: "Personvern og informasjonskapsler", href: "#" },
+      ],
+    };
   },
 };
 </script>
@@ -35,7 +42,7 @@ export default {
   flex-direction: column;
   min-height: 100vh;
 }
-.ods-main {
+.pkt-main {
   flex-grow: 1;
 }
 </style>
